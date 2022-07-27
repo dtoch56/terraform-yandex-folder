@@ -7,8 +7,8 @@ Creates a folder in Yandex.Cloud and folder admin user.
 To create a folder named `my-folder` in Yandex.Cloud with id `xxx000xxx000xxx000xx`:
 
 ```hcl
-module "yandex_folder" {
-  source      = "terraform-yandex-modules/folder"
+module "folder" {
+  source  = "dtoch56/folder/yandex"
 
   cloud_id    = "xxx000xxx000xxx000xx"
   folder_name = "my-folder"
