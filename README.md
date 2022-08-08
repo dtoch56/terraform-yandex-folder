@@ -17,9 +17,9 @@ module "folder" {
 
 ## Requirements
 
-| Name                                            | Version |
-|-------------------------------------------------|---------|
-| [terraform](https://www.terraform.io/downloads) | >= 1.2  |
+| Name                                            | Version  |
+|-------------------------------------------------|----------|
+| [terraform](https://www.terraform.io/downloads) | >= 1.1.9 |
 
 ## Providers
 
