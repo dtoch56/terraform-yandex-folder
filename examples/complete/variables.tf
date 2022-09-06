@@ -10,13 +10,13 @@ variable "folder_name" {
 
 variable "folder_description" {
   description = "A description of the Folder"
-  type    = string
-  default = ""
+  type        = string
+  default     = ""
 }
 
 variable "folder_labels" {
   description = "A set of key/value label pairs to assign to the Folder"
-  type = map(string)
+  type        = map(string)
   default = {
     managed-by = "terraform"
   }
@@ -24,7 +24,7 @@ variable "folder_labels" {
 
 variable "admin_roles" {
   description = "Admin user roles in the Folder"
-  type = list(string)
+  type        = list(string)
   default = [
     "admin",
     "storage.admin"
