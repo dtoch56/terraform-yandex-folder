@@ -24,3 +24,5 @@ else
 	[ -z "$$FAIL" ] || (echo "Terraform configuration needs linting. Run 'terraform fmt'"; echo $$FAIL; exit 1)
 endif
 
+fmt:
+	terraform fmt -recursive .
