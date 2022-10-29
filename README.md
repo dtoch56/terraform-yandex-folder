@@ -8,7 +8,7 @@ To create a folder named `my-folder` in Yandex.Cloud with id `xxx000xxx000xxx000
 
 ```hcl
 module "folder" {
-  source  = "dtoch56/folder/yandex"
+  source  = "git::https://github.com/dtoch56/terraform-yandex-folder.git?ref=v0.0.1"
 
   cloud_id    = "xxx000xxx000xxx000xx"
   folder_name = "my-folder"
